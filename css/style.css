@@ -1,0 +1,701 @@
+html{
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: Cormorant Infant;
+    src: url(../fonts/CormorantInfant-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Cormorant Infant;
+    src: url(../fonts/CormorantInfant-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+/* _container */
+
+._container {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* header */
+
+.header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: rgba(97, 92, 92, 0.7);
+}
+.header__content{
+}
+
+.header__menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.media {
+    display: flex;
+}
+
+.header__logo a{
+    outline: none;
+}
+.header__logo img{
+    width: 2rem;
+    height: 2rem;
+}
+.heder__menu__list {
+}
+.menu__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu__item {
+    font-size: 2rem;
+    display: flex;
+}
+.menu__item a{
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+    font-family: Cormorant Infant, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    outline: none;
+}
+.menu__item:nth-last-child(n+2){
+    margin-right: 2rem;
+}
+.header__socialnet {
+}
+.header__socialnet__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.socialnet__item:nth-last-child(n+2){
+    margin-right: 1rem;
+}
+.socialnet__item img{
+    width: 1.5rem;
+}
+
+/* main */
+
+/* block1 */
+
+.block1 {
+    height: 40rem;
+    width: 100%;
+    background: url(../image/chocolates-g1e8d89cd6_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    border-top: 1px solid;
+    border-bottom: 1px;
+}
+.block1__bg {
+    position: absolute;
+    background: rgba(22, 22, 22, 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.block1__content {
+   margin-top: 15rem;
+   position: relative;
+   text-align: center;
+   overflow: hidden;
+}
+
+.block1__text span {
+    color: white;
+    font-size: 1.2rem;
+    font-family: Cormorant Infant, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.block1__text h1{
+    margin-top: 4rem;
+    color: white;
+    font-family: Cormorant Infant, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 300;
+    font-style: normal;
+}
+.block1__order {
+    color: white;
+    margin-top: 9rem;
+    font-family: Cormorant Infant, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+}
+.block1__order a {
+    color: white;
+    text-decoration: none;
+    outline: none;
+}
+.block1__order:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+    display: inline-block;
+}
+
+/* block2 */
+
+.block2 {
+    position: relative;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
+}
+.block2__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+._container {
+}
+.block2__picture {
+    max-width: 20rem;
+    height: 30rem;
+}
+.block2__picture img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.block2__text {
+    display: flex;
+    width: 27rem;
+    height: 20rem;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.head__text {
+}
+.head__text h2 {
+    font-family: Cormorant Infant, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.head__text p {
+    font-family: Cormorant Infant, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+.line {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.text {
+    text-align: center;
+
+}
+.text1 {
+    font-family: Cormorant Infant, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+   padding-bottom: 2rem;
+}
+.text2 {
+    font-family: Cormorant Infant, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+}
+
+
+/* block3 */
+.block3 {
+    margin-bottom: 3rem;
+}
+.block3__video {
+    padding-top: 40%;
+    width: 100%;
+    position: relative;
+}
+
+.block3__video video {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+/* block4 */
+
+
+.block4 {
+    position: relative;
+}
+.block4__container {
+    
+}
+._container {
+}
+.block4__header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.block4__header h3{
+    font-family: Cormorant Infant, sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    font-style: normal;
+}
+.block4__header span {
+    padding-bottom: 2rem;
+}
+.block4__content {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 16rem);
+    justify-items: center;
+}
+.block4__item {
+    max-width: 15rem;
+    height: 25rem;
+    padding: 0.5rem;
+}
+.block4__item__pic {
+    width: 15rem;
+    height: 12.5rem;
+    padding-bottom: 1rem;
+}
+
+.block4__item__pic:hover {
+    transform: scale(1.07);
+    transition: 0.4s;
+}
+.block4__item__pic img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.3rem;
+}
+.block4__text {
+    text-align: center;
+}
+.block4__text p {
+    font-family: Cormorant Infant, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1;
+}
+
+.block4__footer {
+
+}
+.block4__allmenu {
+    text-align: center;
+}
+.block4__allmenu a {
+    font-family: Cormorant Infant, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    display: inline-block;
+}
+.block4__allmenu a:hover {
+    transform: scale(1.07);
+    transition: 0.4s;
+
+}
+
+.block4__allmenu span {
+    display: block;
+    padding-bottom: 2rem;
+}
+
+
+/* block5 */
+.block5 {
+    position: relative;
+}
+.block5__content {
+    background-image: url(../image/food-3180358_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vw;
+}
+
+/* block6 */
+
+.block6 {
+    position: relative;
+}
+.block6__content {
+}
+._container {
+}
+.block6__picture {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.picture__block1 {
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.block1__pic {
+    width: 10rem;
+    height: 22.5rem;
+}
+.block1__pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.picture__block2 {
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.block2__pic {
+    width: 10rem;
+    height: 10rem;
+}
+.block2__pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.block6__text {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.block6__text p {
+    font-family: Cormorant Infant, sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* block7 */
+
+.block7 {
+    position: relative;
+    background-color: rgba(19, 16, 16, 0.178);
+    padding-top: 1px;
+    min-height: 30rem;
+}
+.block7__content {
+}
+.block7__header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+
+}
+.block7__title {  
+    margin-bottom: 2rem;
+}
+.block7__title h3 { 
+    font-family: Cormorant Infant, sans-serif; 
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 300;
+    color: black;
+}
+.block7__info {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+.block7__info span {
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    
+}
+.info__mail a {
+    color: black; 
+    font-family: Cormorant Infant, sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-decoration: none;
+    outline: none;
+}
+.block7__tel a {
+    color: black; 
+    font-family: Cormorant Infant, sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-decoration: none;
+    outline: none;
+}
+
+.block7__line {
+    width: 7rem;
+    height: 1px;
+    padding: 0;
+    background-color: black;
+    margin-bottom: 1.5rem;
+}
+
+
+.block7__text {
+    margin-bottom: 2rem;
+    max-width: 36rem;
+    text-align: center;
+}
+.block7__text p {
+    font-family: Cormorant Infant, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.2;
+}
+
+.block7__form {
+}
+.form {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.form__block1 {
+    display: flex;
+    flex-direction: column;
+
+}
+.form__item1{
+    width: 15rem;
+    height: 2.5rem;
+    
+    box-sizing: border-box;
+}
+.form__item1:nth-last-child(n+2)  {
+    
+    margin-bottom: 1rem;
+    
+}
+.form__input {
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 0.5rem;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 0.2rem;
+    font-family: Cormorant Infant, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    background-color: #DEDEDE;
+}
+.form__input:hover{
+    border: 1px solid black;
+    background-color: white;;
+}
+.form__block2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.form__item2 {
+}
+.form__block2__textarea {
+    width: 20rem;
+    height: 5rem;
+    resize: none;
+    padding: 0.5rem 0 0 0.5rem;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 0.2rem;
+    font-family: Cormorant Infant, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    background-color: #DEDEDE;
+    
+}
+
+.form__block2__textarea:hover {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.form__input2 {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.form__input2 +label::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25rem;
+    margin-right: 0.5rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+    vertical-align: middle;
+}
+.form__input2:checked +label::before {
+    background-color: #847979a3;
+    background-image: url(../svg/checkbox-mark-svgrepo-com.svg);
+}
+.form__input2:disabled +label::before {
+    background-color: white;
+    
+}
+.form__input2:hover +label::before {
+    border: 1px solid white; 
+      
+}
+.form__input2:focus +label::before {
+    border: 1px solid white; 
+      
+}
+.form__lable2 {
+    font-family: Cormorant Infant, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.form__item2__bottom {
+    width: 20rem;
+    height: 2.5rem;
+}
+.input2__button {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    font-family: Cormorant Infant, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    background-color: #DEDEDE;
+}
+.input2__button:hover{
+   background-color: #847979a3;
+}
+
+/* footer  */
+
+
+.footer {
+    position: relative;
+    min-height: 10rem;
+    background-color: #5547478a;
+    border-top: 1px solid transparent;
+}
+.footer_container {
+    margin-top: 2rem;
+}
+._container {
+}
+
+.footer__main {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__block1 {
+
+}
+.footer__block1__main:nth-last-child(n+2){
+    margin-bottom: 0.5rem;
+}
+.footer__block1__main a {
+    text-decoration: none;
+    outline: none;
+    font-family: Cormorant Infant, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+}
+
+
+.footer__copiright{
+    margin-top: 2rem;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    font-family: Cormorant Infant, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+}
+.footer__copiright a{
+   text-decoration: none;
+   outline: none;
+   color: white;
+}
